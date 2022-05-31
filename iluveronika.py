@@ -93,7 +93,7 @@ def generate_parade_colored():
 
 async def process_love_words(event: NewMessage.Event):
 
-    await client.edit_message(event.peer_id.user_id, event.message.id, '❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️ ↵❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️↵❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️↵
+    await client.edit_message(event.peer_id.user_id, event.message.id, '❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️↵❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️↵❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️↵
 ❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️↵❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️↵❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️↵❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️↵❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️↵❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️↵❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️')
 
     await asyncio.sleep(1)
